@@ -1,0 +1,6 @@
+=== BILAN IMPORT ===
+ReadCount  : 214116
+WriteCount : 95
+Doublons pur : 213964
+Lignes en double : 57
+Lignes obsolète supprimées: 100

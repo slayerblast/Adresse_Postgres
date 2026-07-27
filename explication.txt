@@ -1,0 +1,8 @@
+Pour l'étape 6, j'ai choisi de tous faire via application.properties.
+
+Avantages :
+-> Le code déjà en place fonctionne avec sqlite et postgres
+-> rapide, je n'ai eu qu'à rajouter un schema.sql pour postgres et la configuration associée dans le properties
+
+Inconvenients :
+-> Risque d'incompatiblité si le code est amené à changer ( une probable nécessitée de créer des profils dans le futur)
