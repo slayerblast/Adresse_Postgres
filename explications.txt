@@ -1,0 +1,30 @@
+Un doublon, c'est quoi ?
+
+Un doublon "pur", est considéré comme une ligne identique en tout point alors qu'un doublon "impur" est une adresse
+ayant le même id. Un doublon pur est forcément rejeté tandis qu'un doublon impur peut être inséré en base par mise à
+jour s'il respecte plus les règles métier que l'adresse avec laquelle il partage le même id.
+
+
+Comment détecter un doublon ?
+
+Le plus simple est de passer par un ItemProcessor dans lequel on rajoutera dans une liste
+l'ensemble des adresses insérées en base.
+
+
+Pourquoi le résultat final ne doit pas dépendre de l'ordre des lignes dans le fichier d'entrée ?
+
+Car il faut insérer de manière arbitraire et non aléatoire avec des règles métier et donc non en fonction du premier
+ou dernier lu.
+
+
+Y a-t-il des adresses invalides ?
+
+Il y a celle dont l'id valait "scillée".
+
+
+Pour les doublons avec divergence, si le doublon a le même id
+
+
+
+Vérifier que le résultat final en base est strictement identique quel que soit l'ordre de tri des lignes du fichier
+d'entrée pour les deux types de doublons.

@@ -14,7 +14,7 @@ public class AdresseValidator
         implements Validator<Adresse> {
 
     private static final Pattern CODE_INSEE_PATTERN =
-            Pattern.compile("^(?:0[1-9]|[1-8]\\d|9[0-5]|2a|2b)\\d{3}$");
+            Pattern.compile("^(?:(?:0[1-9]|[1-8]\\d|9[0-5]|2[aAbB])\\d{3}|97[1-4]\\d{2}|976\\d{2})$");
     /**
      * à adapter selon le critère choisi !!!
      * Utilisé pour vérifier le format de l'id et la validation de l'INSEE

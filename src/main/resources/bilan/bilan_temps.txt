@@ -1,11 +1,11 @@
 === BILAN DES TEMPS ===
 
-Début : 2026-07-27T11:15:38.186947600
-Fin    : 2026-07-27T11:15:58.557927200
-Durée totale : 20 secondes
+Début : 2026-08-03T11:01:58.871753800
+Fin    : 2026-08-03T11:02:16.262199800
+Durée totale : 17 secondes
 
 === Temps par étape ===
-importCsvStep : 14 secondes
-createStagingIndexStep : 1 secondes
-importAdresseStep : 3 secondes
+importCsvStep : 8 secondes
+createStagingIndexStep : 0 secondes
+importAdresseStep : 8 secondes
 suppressionObsoleteStep : 0 secondes
